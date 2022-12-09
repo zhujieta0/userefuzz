@@ -1,7 +1,7 @@
 from setuptools import setup
 
 def readme():
-    with open('pypi.md') as f:
+    with open('userefuzz/pypi.md') as f:
         return f.read()
 
 setup(
